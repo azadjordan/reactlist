@@ -80,7 +80,11 @@ function App() {
         handleSubmit={handleSubmit}
       />
 
-      <SearchItem search={search} setSearch={setSearch} />
+      <SearchItem 
+      search={search} 
+      setSearch={setSearch} 
+      
+      />
 
       <Content
         items={items.filter((item) =>
