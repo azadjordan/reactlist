@@ -6,7 +6,7 @@ const Content = ({ items, handleCheck, handleDelete }) => {
   //to change the name directly. We always want to use setName!
 
   return (
-	 <main>
+	 <>
 		{items.length ? (
 		  <ItemsList
 			items = {items}
@@ -16,7 +16,7 @@ const Content = ({ items, handleCheck, handleDelete }) => {
 		) : (
 		  <p style={{ margin: "auto" }}>Your List is empty!</p>
 		)}
-	 </main>
+	 </>
   );
 };
 
